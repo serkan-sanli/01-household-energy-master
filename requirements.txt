@@ -1,0 +1,39 @@
+# packaging
+pip>=9
+setuptools>=26
+twine
+wheel>=0.29
+
+# data science
+numpy
+pandas
+scikit-learn
+seaborn
+pickle
+
+# tests/linter
+black
+coverage
+flake8
+pytest
+yapf
+
+# API
+gcsfs
+google-cloud-storage
+google-cloud-bigquery
+mlflow
+s3fs
+# adding the below packages for api
+fastapi
+pytz
+uvicorn
+python-dotenv
+docker
+google-cloud-bigquery
+
+# utilities
+six>=1.14
+joblib
+memoized-property
+termcolor
